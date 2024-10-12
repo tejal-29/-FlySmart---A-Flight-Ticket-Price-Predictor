@@ -1,2 +1,2 @@
-# {FlySmart - A Flight Ticket Price Predictor
+# FlySmart - A Flight Ticket Price Predictor
  

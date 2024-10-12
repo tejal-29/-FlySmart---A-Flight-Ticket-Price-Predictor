@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(135deg, #96b1e8, rgba(148, 136, 32, 0.833));
+    text-align: center;
+}
+h1{
+    font-style: initial;
+    color: rgb(11, 11, 11);
+    font-size: 35px;
+}
+.price {
+    color: rgb(1, 10, 18);
+}
+.name {
+    font-size: 18px;
+    color: rgb(67, 27, 3);
+    font-weight: bold;
+}
+.btn {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    background-color: rgb(14, 2, 26);
+    border: 20px;
+    border-radius: 20px;
+}
+.btn:hover {
+    color: rgb(169, 166, 9);
+    background-color: rgb(227, 230, 236);
+}

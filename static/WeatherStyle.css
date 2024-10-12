@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: rgba(155, 145, 36, 0.833);
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .search-bar {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  }
+  .search-box button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+.search-box button img{
+    width: 16px;
+  }
+  .current-weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+  }
+  
+  .current-weather h2 {
+    margin-bottom: 20px;
+  }
+  
+  .weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .weather-icon {
+    width: 150px;
+    height: 150px;
+    background-image: url("");
+    background-size: cover;
+    margin-right: 30px;
+  }
+  
+  .weather-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .weather-data p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .weekly-forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .weekly-forecast h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 70px 5px rgba(0,0,0,0.2);
+    background-color: #d0e0a2e1;
+  }
+  .card-date {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url("https://fontawesome.com/icons/categories/weather");
+    background-size: cover;
+  }
+  
+  .card-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .card-data p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  

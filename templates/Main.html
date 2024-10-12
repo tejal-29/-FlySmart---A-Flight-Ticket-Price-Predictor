@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlySmart-A Flight Ticket Price Predictor</title>
+
+    <!--=====CSS=====-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='MainStyle.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fa-solid fa-bars"></label>
+    <div class="logo">
+        <h1>AirHint</h1>
+    </div>
+
+    <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/services">Services</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fa-sharp fa-solid fa-user"></i>
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+    </div>
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Flight Ticket Price Prediction</h3>
+        <span>"Get ready to fly smarter, not harder, with our innovative flight price prediction tools."
+            <br>where we help you predict the best prices for your next flight!!</span>
+        <a href="/predict" class="btn">Click here to predict price</a>
+        <h2>Plan Your Trip with Confidence<br>Get Weather Updates Of your Destination!!</h2>
+        <a href="/weather" class="ctn">Check Weather</a>
+    </div>
+</section>
+
+<!---Services-->
+<section class="service">
+    <h1>Services We Offer</h1>
+    <div class="line"></div>
+    <p></p>
+    <div class="row">
+        <div class="service-col">
+            <h3>Flight Price Prediction</h3>
+            <p>Our website uses advanced algorithms to predict flight ticket prices 
+                for different airlines and routes. By analyzing historical data,
+                we can help travelers make informed decisions about when to book
+                their flights and get the best deals.</p>
+        </div>
+        <div class="service-col">
+            <h3>Weather Updates</h3>
+            <P>we know that weather can play a big role in travel plans. That's why we provide up-to-date weather information for your destination 
+                including temperature, humidity, wind speed and Precipitation so you can plan your trip with confidence.</P>
+        </div>
+        <div class="service-col">
+            <h3>Customer Support</h3>
+            <p>Our website provides 24/7 customer support to assist users with any questions they may have 
+                Our team of travel experts is always ready to help users make the most of their travel experience.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h1>About Us</h1>
+    <div class="line"></div>
+    <div class="row">
+        <div class="about-col">
+            <img src="{{ url_for('static', filename='AboutImages/whyUse.jpg') }}">
+            <h3>Why Choose FlySmart ?</h3>
+            <p>Because we can help you to save money and find low cost airlines tickets!
+            if you're using a low cost carrier for your flights, you should make sure you really buy a
+            low-cost flight ticket.FLySmart tells you exactly when it's the best moment to buy your flight tickets. 
+            We help finding best offers and booking the flight.Our weather information is updated regularly, 
+            so you can have the most accurate information possible when planning your trip.</p>
+        </div>
+        <div class="about-col">
+            <img src="{{ url_for('static', filename='AboutImages/flight-booking-app.jpg') }}">
+            <h3>Our Unique Approch</h3>
+            <P>Our airfare predictions were designed for low-cost airlines, 
+                to discover the price patterns of one airline at a time and this can only mean an increased accuracy prediction. 
+                While the other price comparison websites base their predictions on a general one-size-fits-all model,
+                we customize our tool depending on the airline's flight price patterns. The number of flights may be 
+                a bit more limited, but this is a small price to pay for the high accuracy of predictions.
+                We're all about cheap prices!</P>
+        </div>
+        <div class="about-col">
+            <img src="{{ url_for('static', filename='AboutImages/benefits.jpg') }}">
+            <h3>The Benefits of Using Our Tool</h3>
+            <P>Our flight ticket price prediction tool, which utilizes machine learning, offers numerous benefits to users.
+                 Firstly, users can expect accurate predictions as the model can analyze large amounts of data to identify
+                  patterns that may not be visible to humans. This results in more precise price predictions and ultimately saves users money. 
+                  Our tool is also time-saving, allowing users to quickly find the best flight deals without spending hours searching and comparing prices.</P>
+            </div>
+    </div>
+</section>
+
+<!-- Call to action -->
+<section class="cta">
+    <h1>"Get ahead of the game and book your flight with confidence<br>
+        Try our flight ticket price prediction tool now and never overpay for your travels again!"</h1>
+        <a href="/contact" class="btn">CONTACT US</a>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+
+    <div class="icons">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</section>
+</body>
+</html>
